@@ -1,0 +1,25 @@
+<html>
+	<head>
+		<script type="text/javascript" src="{{ url_for('static',filename='js/jq.js') }}"></script>
+		<script type="text/javascript" src="{{ url_for('static',filename='js/site.js') }}"></script>
+		<link rel="stylesheet" href="{{url_for('static',filename='css/style.css') }}">
+		<link rel="stylesheet" href="{{url_for('static',filename='css/bs.css') }}">
+	</head>
+	<body class="body1">
+		<h1 align="center">Try this bot</h1>
+		<div class="container">
+			<div id="area">
+				<div id="bot">So far we have been returning text. Let’s make our website look nicer by adding HTML and CSS.</div>
+				<div id="hum">So far we have been returning text. Let’s make our website look nicer by adding HTML and CSS.</div>
+				
+			</div>
+			<div id="controls">
+				<form class=".form-inline"> 
+					<input type="text" class="form-control f-c-c" placeholder="Enter message here" 
+						id="msg" style="display: inline; width: 89%;" autocomplete="off">
+					<button class="btn btn-warning b-c" id="send" style="width: 10%">Send</button>
+				</form>
+			</div>
+		</div>
+	</body>
+</html>
